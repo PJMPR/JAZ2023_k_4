@@ -6,5 +6,5 @@ public class RandomPersonDto {
     private String firstName;
     private String lastName;
 
-    private RandomAddressDto address;
+    private RandomSubscriptionDto address;
 }
