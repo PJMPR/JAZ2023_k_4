@@ -1,6 +1,7 @@
 package com.example.updaters.clients;
 
-import com.example.contract.PersonDto;
+
+import com.example.updaters.clients.contract.RandomPersonDto;
 
 import java.util.List;
 
@@ -9,7 +10,7 @@ public class RandomDataClient implements IRandomDataClient{
     private String url;
 
     @Override
-    public List<PersonDto> getRandomPeople(int size) {
+    public List<RandomPersonDto> getRandomPeople(int size) {
         return null;
     }
 }

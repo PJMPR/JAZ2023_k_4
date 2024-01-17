@@ -1,10 +1,10 @@
 package com.example.updaters.clients;
 
-import com.example.contract.PersonDto;
+import com.example.updaters.clients.contract.RandomPersonDto;
 
 import java.util.List;
 
 public interface IRandomDataClient {
 
-    List<PersonDto> getRandomPeople(int size);
+    List<RandomPersonDto> getRandomPeople(int size);
 }
