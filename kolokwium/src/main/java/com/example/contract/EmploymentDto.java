@@ -1,5 +1,5 @@
 package com.example.contract;
 
 
-public class SubscriptionDto {
+public class EmploymentDto {
 }
